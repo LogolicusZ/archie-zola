@@ -1,10 +1,13 @@
 /* Markdown */
 :root {
-  --maincolor: red;
-  --bordercl: rebeccapurple;
+  --maincolor: #7B41F5;
   --callouctcolor: dodgerblue;
   --hovercolor: navy;
-  --darkMaincolor: #50fa7b;
+  --darkMaincolor: #C0FE1F;
+  --bordercl: #7B41F5;
+
+  --highlight: #7a41f545;
+  --darkHighlight: #bffe1f3b;
 }
 
 html {
@@ -39,8 +42,7 @@ body {
 }
 
 ::selection {
-  background: var(--maincolor);
-  color: #fff;
+  background: var(--highlight);
 }
 
 p {
@@ -81,7 +83,7 @@ ul li {
   text-indent: -2ch;
 }
 
-ul > li::before {
+ul>li::before {
   content: "* ";
   font-weight: bold;
 }
