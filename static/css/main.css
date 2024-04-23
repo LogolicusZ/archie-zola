@@ -1,19 +1,19 @@
 /* Markdown */
 :root {
-  --maincolor: #4361ee;
+  --maincolor: #219ebc;
   --callouctcolor: dodgerblue;
-  --darkMaincolor: #548c2f;
-  --bordercl: #4361ee;
-  --darkbordercl:#548c2f;
-  --linkHighlight: #3954cd;
-  --darklinkHighlight: #68b038;
+  --darkMaincolor: #7678ed;
+  --bordercl: #219ebc;
+  --darkbordercl:#7678ed;
+  --linkHighlight: #8ecae6;
+  --darklinkHighlight: #3d348b;
 
   --highlight: #7a41f545;
   --border-color: #393733;
 }
 
 html {
-  color: #191816;
+  color: #0b0b0c;
   font-family: "Roboto Mono", monospace;
   font-size: 15px;
   line-height: 1.6em;
