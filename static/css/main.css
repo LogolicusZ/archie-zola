@@ -483,6 +483,12 @@ p, h1, h2, h3, h4, h5, h6, code, pre {
 
 p.image-text {
   align-self: center;
+  
+}
+
+.duo {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* code block tweaks */
