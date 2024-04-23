@@ -491,6 +491,10 @@ p.image-text {
   justify-content: space-evenly;
 }
 
+.duoImage {
+  max-width: 45%;
+}
+
 /* code block tweaks */
 code {
   border-radius: 8px;
