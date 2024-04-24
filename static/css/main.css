@@ -501,7 +501,25 @@ p.image-text {
 
   }
 }
+.triple {
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.tripleImage {
+  width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+  .tripleImage {
+    width: 200%;
+
+  }
+}
+
+.landscapeImage {
+  Width:120%;
+}
 /* code block tweaks */
 code {
   border-radius: 8px;
