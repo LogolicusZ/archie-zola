@@ -27,6 +27,11 @@
                 <a href={{ page.permalink }}>{{page.title}}</a>
             </h1>
 
+            {% if page.extra.banner %}
+                <img src="{{ page.extra.banner.path }}" alt="{{page.extra.banner.alt}}" class="post-banner" />
+                <br />
+            {% endif %}
+
             <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
             <span>| {{ page.reading_time }} {{ config.extra.translations[lang][0].read_time }}</span>
             {% if page.extra.author %}
