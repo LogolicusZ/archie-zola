@@ -460,7 +460,7 @@ section.body {
   align-items: center;
 }
 
-p, h1, h2, h3, h4, h5, h6, code, pre {
+p, h1, h2, h3, h4, h5, h6, code, pre, ul {
   align-self: flex-start;
 }
 
@@ -548,3 +548,4 @@ iframe {
 code {
   border-radius: 8px;
 }
+
