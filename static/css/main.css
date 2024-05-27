@@ -1,11 +1,11 @@
 /* Markdown */
 :root {
-  --maincolor: #219ebc;
+  --maincolor: #8CB369;
   --callouctcolor: dodgerblue;
-  --darkMaincolor: #7678ed;
-  --bordercl: #219ebc;
-  --darkbordercl:#7678ed;
-  --linkHighlight: #8ecae6;
+  --darkMaincolor: #B8B8FF;
+  --bordercl: #8CB369;
+  --darkbordercl:#B8B8FF;
+  --linkHighlight: #BADD9B;
   --darklinkHighlight: #3d348b;
 
   --highlight: #7a41f545;
